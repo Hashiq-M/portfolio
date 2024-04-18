@@ -71,7 +71,9 @@ export default function Home() {
             </ul>
           </div>
 
-          <p className="text-2xl mt-5 font-bold">Projects I've Worked On! 🚀</p>
+          <p className="text-2xl mt-5 font-bold">
+            Projects I&apos;ve Worked On! 🚀
+          </p>
 
           <div className="mb-8 mt-5 max-w-screen-xl mx-auto">
             <h2 className="text-xl font-semibold mb-2">
