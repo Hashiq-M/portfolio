@@ -26,7 +26,7 @@ export default function Home() {
             </Link>
           </div>
           <p className="text-2xl pt-5 font-bold pb-4">
-            I'm ASHIK ✌️, a passionate developer 🧑🏼‍💻.
+            I&apos;m ASHIK ✌️, a passionate developer 🧑🏼‍💻.
           </p>
 
           <p className="text-2xl mt-5 font-bold">The skills I Bring! 💻</p>
