@@ -1,18 +1,23 @@
 import Link from "next/link";
-import contact from "./contact/page";
+import Image from "next/image";
+import pic from "../public/pic.png";
 export default function Home() {
   return (
     <main>
       <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen font-sans text-white mx-auto">
-        <div className=" max-w-screen-xl mx-auto px-4 py-10">
-          <h1 className="text-5xl font-bold mb-4">Welcome to My Portfolio</h1>
+        <div className=" max-w-screen-xl mx-auto px-2 py-8">
+          <h1 className="text-5xl font-bold  mb-4">Welcome to My Portfolio</h1>
           <div className="lg:float-right  mx-auto">
             <p className=" text-4xl font-bold pr-2 mx-auto">
-              Wanna Contact Me 📞
+              Wanna Contact Me📞
             </p>
-            <img
-              className=" size-1/2 hidden lg:block"
-              src="https://media4.giphy.com/media/hru8na0gG8BoR2rK3l/giphy.gif?cid=6c09b9529u61j4o4n82y4pjl9iphmltb9197ujimg4hshaft&ep=v1_internal_gif_by_id&rid=giphy.gif&ct=s"
+
+            <Image
+              className="hidden lg:block"
+              src={pic}
+              alt="img"
+              style={{ height: "50%", width: "50%" }}
+              priority={true}
             />
             <Link href="/contact">
               <button className="text-xl font-bold border animate-bounce mt-6 rounded-lg p-2">
@@ -72,7 +77,7 @@ export default function Home() {
             <h2 className="text-xl font-semibold mb-2">
               At-Risk Student Prediction
             </h2>
-            <ul className="ml-8 list-disc  leading-loose">
+            <ul className="ml-8 list-disc  leading-loose mx-auto">
               <li>
                 It predicts their performance based on their percentage and
                 their presence in the class.
@@ -92,7 +97,7 @@ export default function Home() {
             <h2 className="text-xl font-semibold mb-2">
               Forest Fire Alarm System using Arduino and GSM Module
             </h2>
-            <ul className="ml-8 list-disc leading-loose">
+            <ul className="ml-8 list-disc leading-loose mx-auto">
               <li>
                 It is an IoT-based project used for detecting forest fire from a
                 long distance.
@@ -108,7 +113,7 @@ export default function Home() {
             <h2 className="text-xl font-semibold mb-2">
               A Website for Buying AAA Games (Front End)
             </h2>
-            <ul className="ml-8 list-disc leading-loose">
+            <ul className="ml-8 list-disc leading-loose mx-auto">
               <li>It is a front-end website for buying PC games.</li>
               <li>
                 Inspired by Epic Games and a designing project done by me on
