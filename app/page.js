@@ -39,9 +39,9 @@ export default function Home() {
               </span>
               ✌️
             </p>
-            <p className="text-5xl font-bold pb-4 mx-auto">
+            <p className="text-5xl  font-bold pb-4 mx-auto">
               A Passionate&nbsp;
-              <span className=" lg:inline-block sm:block mx-auto">
+              <span className=" inline-block">
                 <Typewriter
                   words={["Web Developer", "Gamer"]}
                   cursor
