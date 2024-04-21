@@ -40,7 +40,7 @@ export default function Home() {
               ✌️
             </p>
             <p className="text-5xl font-bold pb-4">
-              A passionate{" "}
+              A passionate
               <span>
                 <Typewriter
                   words={["Front End Developer", "Gamer"]}
@@ -89,8 +89,8 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="mb-8 mt-5 text-xl">
-              <h2 className="text-2xl font-semibold mb-2">Database</h2>
+            <div className=" mt-5 text-xl">
+              <h2 className="text-2xl pb-2 font-semibold mb-2">Database</h2>
               <ul className="list-inside ml-4 sm:flex">
                 <li>&nbsp;MySQL</li>
               </ul>
