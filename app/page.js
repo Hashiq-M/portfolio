@@ -25,12 +25,12 @@ export default function Home() {
           <div className=" max-w-screen-xl mx-auto px-2 py-0">
             <h1 className="text-5xl font-bold mb-4">Welcome to My Portfolio</h1>
             <p className="text-5xl pt-5 font-bold pb-4">
-              I&apos;m{" "}
+              I&apos;m&nbsp;
               <span>
                 <Typewriter
                   words={["ASHIK"]}
                   cursor
-                  cursorStyle="_ "
+                  cursorStyle="_"
                   typeSpeed={500}
                   deleteSpeed={80}
                   delaySpeed={1000}
@@ -40,8 +40,8 @@ export default function Home() {
               ✌️
             </p>
             <p className="text-5xl font-bold pb-4">
-              A passionate
-              <span>
+              A passionate&nbsp;
+              <span className="mx-auto">
                 <Typewriter
                   words={["Front End Developer", "Gamer"]}
                   cursor

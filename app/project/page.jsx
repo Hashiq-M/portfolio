@@ -43,7 +43,7 @@ function projects() {
             </ul>
           </div>
 
-          <div className="mb-8 mt-5 max-w-screen-xl mx-auto text-xl">
+          <div className="mt-5 max-w-screen-xl mx-auto text-xl">
             <h2 className="text-2xl font-semibold mb-2">
               A Website for Buying AAA Games (Front End)
             </h2>
