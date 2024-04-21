@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen font-space text-white mx-auto">
         <PageWrapper>
-          <div className=" pt-6 pr-10 pb-6">
+          <div className=" pt-6 pr-10 lg:pb-6 sm:pb-10">
             <Link href="/contact">
               <p className="text-white text-2xl float-right hover:animate-bounce">
                 Contact
@@ -40,10 +40,10 @@ export default function Home() {
               ✌️
             </p>
             <p className="text-5xl font-bold pb-4 mx-auto">
-              A passionate&nbsp;
-              <span className="mx-auto">
+              A Passionate&nbsp;
+              <span className=" lg:inline-block sm:block mx-auto">
                 <Typewriter
-                  words={["Front End Developer", "Gamer"]}
+                  words={["Web Developer", "Gamer"]}
                   cursor
                   cursorStyle="|"
                   typeSpeed={100}
@@ -54,7 +54,7 @@ export default function Home() {
               </span>
             </p>
 
-            <p className="text-3xl mt-5 font-bold">The skills I Bring! 💻</p>
+            <p className="text-3xl mt-5 font-bold">The Skills I Bring! 💻</p>
 
             <div className="mb-8 mt-5 text-xl">
               <h2 className="text-2xl font-semibold mb-2">
