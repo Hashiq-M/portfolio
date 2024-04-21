@@ -39,7 +39,7 @@ export default function Home() {
               </span>
               ✌️
             </p>
-            <p className="text-5xl font-bold pb-4">
+            <p className="text-5xl font-bold pb-4 mx-auto">
               A passionate&nbsp;
               <span className="mx-auto">
                 <Typewriter
