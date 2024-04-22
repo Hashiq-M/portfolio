@@ -9,7 +9,7 @@ export default function Home() {
         <PageWrapper>
           <div className=" pt-6 pr-10 lg:pb-6 sm:pb-10">
             <Link href="/contact">
-              <p className="text-white text-2xl float-right hover:animate-bounce">
+              <p className="text-white text-2xl float-right hover:animate-bounce hover:font-bold hover:text-cyan-400">
                 Contact
               </p>
             </Link>
@@ -17,7 +17,7 @@ export default function Home() {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             </p>
             <Link href="/project">
-              <p className="text-white text-2xl float-right hover:animate-bounce">
+              <p className="text-white text-2xl float-right hover:animate-bounce hover:font-bold hover:text-cyan-400">
                 Projects
               </p>
             </Link>
@@ -26,7 +26,7 @@ export default function Home() {
             <h1 className="text-5xl font-bold mb-4">Welcome to My Portfolio</h1>
             <p className="text-5xl pt-5 font-bold pb-4">
               I&apos;m&nbsp;
-              <span>
+              <span className="text-cyan-300">
                 <Typewriter
                   words={["ASHIK"]}
                   cursor
@@ -41,7 +41,7 @@ export default function Home() {
             </p>
             <p className="text-5xl  font-bold pb-4 mx-auto">
               A Passionate&nbsp;
-              <span className=" inline-block">
+              <span className=" inline-block text-cyan-400">
                 <Typewriter
                   words={["Web Developer", "Gamer"]}
                   cursor
@@ -81,7 +81,7 @@ export default function Home() {
               </ul>
             </div>
 
-            <div className="mb-8 text-xl">
+            <div className="mb-8=7 text-xl">
               <h2 className="text-2xl font-semibold mb-2">Designing Tools</h2>
               <ul className="list-inside ml-4 sm:flex">
                 <li>&nbsp;Figma | </li>

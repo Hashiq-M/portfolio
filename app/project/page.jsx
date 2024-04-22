@@ -1,5 +1,7 @@
 import { PageWrapper } from "../PageWrapper";
-
+import Image from "next/image";
+import main from "../../public/main.png";
+import bootstrap from "../../public/bootstrap.jpg";
 function projects() {
   return (
     <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen font-space text-white mx-auto">
@@ -11,6 +13,7 @@ function projects() {
             <h2 className="text-2xl font-semibold mb-2">
               At-Risk Student Prediction
             </h2>
+            <Image src={main} width={300} alt="img" className=" float-right" />
             <ul className="ml-8 list-disc  leading-loose mx-auto">
               <li>
                 It predicts their performance based on their percentage and
@@ -44,9 +47,16 @@ function projects() {
           </div>
 
           <div className="mt-5 max-w-screen-xl mx-auto text-xl">
+            <Image
+              src={bootstrap}
+              width={300}
+              alt="img"
+              className=" float-right "
+            />
             <h2 className="text-2xl font-semibold mb-2">
               A Website for Buying AAA Games (Front End)
             </h2>
+
             <ul className="ml-8 list-disc leading-loose mx-auto">
               <li>It is a front-end website for buying PC games.</li>
               <li>
