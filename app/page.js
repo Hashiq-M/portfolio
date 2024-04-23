@@ -43,7 +43,7 @@ export default function Home() {
               A Passionate&nbsp;
               <span className=" inline-block text-cyan-400">
                 <Typewriter
-                  words={["Web Developer", "Gamer"]}
+                  words={["Developer", "Gamer"]}
                   cursor
                   cursorStyle="|"
                   typeSpeed={100}

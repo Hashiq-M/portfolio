@@ -1,8 +1,23 @@
+"use client";
 import { PageWrapper } from "../PageWrapper";
 import Image from "next/image";
 import main from "../../public/main.png";
-import bootstrap from "../../public/bootstrap.jpg";
+import bootstrap from "../../public/bootstrap.png";
+import { motion } from "framer-motion";
 function projects() {
+  const images = {
+    hidden: {
+      opacity: 0,
+      x: 30,
+    },
+    show: {
+      opacity: 1,
+      x: 0,
+      transition: {
+        duration: 1,
+      },
+    },
+  };
   return (
     <div className="bg-gradient-to-b from-gray-900 to-gray-800 min-h-screen font-space text-white mx-auto">
       <PageWrapper>
@@ -13,7 +28,14 @@ function projects() {
             <h2 className="text-2xl font-semibold mb-2">
               At-Risk Student Prediction
             </h2>
-            <Image src={main} width={300} alt="img" className=" float-right" />
+            <motion.div
+              initial={images.hidden}
+              animate={images.show}
+              className=" float-right mx-auto"
+            >
+              <Image priority={true} src={main} width={300} alt="img" />
+            </motion.div>
+
             <ul className="ml-8 list-disc  leading-loose mx-auto">
               <li>
                 It predicts their performance based on their percentage and
@@ -47,16 +69,16 @@ function projects() {
           </div>
 
           <div className="mt-5 max-w-screen-xl mx-auto text-xl">
-            <Image
-              src={bootstrap}
-              width={300}
-              alt="img"
-              className=" float-right "
-            />
             <h2 className="text-2xl font-semibold mb-2">
               A Website for Buying AAA Games (Front End)
             </h2>
-
+            <motion.div
+              initial={images.hidden}
+              animate={images.show}
+              className=" float-right mx-auto"
+            >
+              <Image priority={true} src={bootstrap} width={300} alt="img" />
+            </motion.div>
             <ul className="ml-8 list-disc leading-loose mx-auto">
               <li>It is a front-end website for buying PC games.</li>
               <li>
